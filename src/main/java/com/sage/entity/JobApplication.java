@@ -18,9 +18,9 @@ public class JobApplication extends BaseEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "job_id",nullable = false)
-    private Job job;
+//    @ManyToOne
+//    @JoinColumn(name = "job_id",nullable = false)
+//    private Job job;
 
     @Column(name = "First_Name")
     private String firstName;
