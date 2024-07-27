@@ -39,7 +39,7 @@ public class Job extends BaseEntity implements Serializable {
     private String designation;
 
     @ManyToOne
-    @JoinColumn(name = "category_id",nullable = false)
+    @JoinColumn(name = "sanjeev",nullable = false)
     private Category category;
 
     @Column(name = "Skills_Required")
